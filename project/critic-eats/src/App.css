@@ -1,0 +1,15 @@
+#root {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+body {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  /* background-color: #a7a047; */
+  background-color: #d7dfb9;
+}
+
+.whole-page {
+  background-color: #d7dfb9;
+}

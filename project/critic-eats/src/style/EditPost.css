@@ -1,0 +1,62 @@
+.edit-post-form {
+    background-color: #cec35e;
+    width: 75%;
+    margin: auto;
+    padding: 20px 24px;
+    border-radius: 8px;
+}
+
+.edit-input-container {
+    margin-bottom: 20px;
+}
+
+#title, #origin, #image, #description {
+    background-color: #463f08;
+}
+
+.edit-input-container li {
+    list-style: none;
+    list-style-type: none;
+    text-decoration: none;
+    margin-left: 0;
+    padding-left: 0;
+    padding-right: 35%;
+    /* margin: auto; */
+    text-align: center;
+    align-items: center;
+    display: flex;
+}
+
+.edit-post-submit-btn {
+    border-radius: 8px;
+    background-color: #a5a325;
+}
+
+.edit-post-delete-btn {
+    border-radius: 8px;
+    background-color: #b91515;
+}
+
+.edit-action-btns {
+    display: flex;
+    justify-content: space-between;
+}
+
+.edit-post-submit-btn:hover {
+    color: #053307;
+}
+
+.edit-post-delete-btn:hover {
+    color: #e5c0c0;
+}
+
+.edit-post-img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+
+.form-div {
+  height: auto;
+}

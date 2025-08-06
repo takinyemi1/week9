@@ -1,0 +1,180 @@
+.post-card-container {
+  background-color: #b6b452cc;
+  border-radius: 20px;
+  padding: 16px 20px;
+  width: 80%;
+  height: auto;
+  margin-bottom: 20px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  box-shadow: 0 4px 7px 0 rgba(0, 0, 0, 0.2);
+  color: white;
+}
+
+.posted-ago-container {
+  margin-bottom: 0px;
+  margin-right: auto;
+}
+
+.post-title-detail-container {
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-right: auto;
+  margin-top: 5px;
+}
+
+.post-content-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.description-label-container {
+    margin-right: auto;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.content-textarea {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 15px;
+  resize: none;
+  height: 100px;
+  width: 100%;
+  padding: 16px 20px;
+  border-radius: 5px;
+}
+
+.content-textarea:hover {
+  cursor: default;
+}
+
+.post-img-container {
+    margin-right: auto;
+    display: flex;
+}
+
+.post-img {
+  height: auto;
+  border-radius: 7px;
+  width: 100%;
+}
+
+.votes-container {
+  display: flex;
+  align-items: center;
+  margin-top: 5px;
+  margin-right: auto;
+}
+
+.post-votes-container {
+    /* margin-right: auto; */
+    justify-content: space-between;
+    display: flex;
+}
+
+.actions-container {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin-left: auto;
+}
+
+.vote-amount {
+  font-size: 18px;
+}
+
+.thumbs-up-btn {
+  margin-right: 10px;
+  font-size: 18px;
+  background-color: rgb(39, 133, 31);
+  border-radius: 50%;
+  width: 50px;
+  height: 40px;
+  border-style: none;
+  padding: 5px;
+  transition: transform 0.2s, box-shadow 0.2s ease;
+}
+
+.thumbs-up-btn:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 25px 0 rgba(133, 201, 78, 0.664);
+}
+
+.edit-post-btn {
+    /* border-radius: 8px; */
+    background-color: transparent;
+}
+
+.edit-post-btn:hover {
+    transform: scale(1.05);
+    box-shadow: 0 2px 10px 0 rgba(212, 214, 73, 0.664);
+}
+
+.thumbs-up-btn:active {
+  transform: translateY(2px); /* Move the button down slightly when pressed */
+  box-shadow: none;
+}
+
+.comments-title-container {
+    margin-right: auto;
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+
+.actual-comments {
+    margin: auto;
+}
+
+.comments-container {
+  background-color: rgb(149, 160, 47);
+  padding: 16px 20px;
+  border-radius: 10px;
+}
+
+.comment-textarea {
+  font-size: 15px;
+  height: auto;
+  width: 100%;
+  padding: 7px;
+  border-radius: 4px;
+}
+
+.comments-container li {
+  margin-bottom: 20px;
+  /* border-bottom: solid 3px rgb(176, 189, 58); */
+  margin-right: 20px;
+}
+
+.submit-comment-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.submit-comment-container button {
+  height: 36px;
+  padding-right: 7px;
+  /* padding-left: 7px; */
+  /* width: 2%; */
+  font-size: 15px;
+  border-radius: 4px; /* Adjust the border-radius value as needed */
+  border: none; /* Remove the default button border */
+  background-color: transparent; /* Add a background color for better visibility */
+  color: #ffffff; /* Set text color */
+  cursor: pointer;
+}
+
+.submit-comment-container button:hover {
+    transform: scale(1.05);
+    /* box-shadow: 0 2px 2px 0 rgba(212, 214, 73, 0.664); */
+}
+
+.comments-container li {
+  list-style-type: "- ";
+}
+
+.loading-sign {
+    margin: auto;
+}

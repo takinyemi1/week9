@@ -1,0 +1,62 @@
+.whole-page {
+    height: auto;
+}
+
+.forgot-password a {
+    text-decoration: none;
+    color: black;
+}
+
+label {
+    border-bottom: solid 3px rgb(182, 181, 104);
+}
+
+.login-btn {
+    border-radius: 8px;
+    background-color: #86afd1;
+    width: 20%;
+}
+
+.register-btn {
+    border-radius: 8px;
+    background-color: #868bd1;
+    width: 20%;
+}
+
+.login-btn:hover {
+    color: #f2f8e9;
+}
+
+.register-btn:hover {
+    color: #f2f8e9;
+}
+
+.login-btn:active {
+    background-color: #3074ac;
+}
+
+.register-btn:active {
+    background-color: #666bb9;
+}
+
+.register-input {
+    width: 50%;
+}
+
+.register-name {
+    color: #776d4aff;
+    text-decoration: none;
+}
+
+.register-name:hover {
+    color: rgb(153, 130, 40);
+}
+
+.sign-in-btn {
+    background-color: #99af4a;
+    border-radius: 8px;
+}
+
+.sign-in-btn:hover {
+    color: #ffefaf;
+}
